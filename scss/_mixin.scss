@@ -1,0 +1,109 @@
+//FONTS =====================================================================================================
+//Comforter --------------------------------------------------
+
+@mixin font-comforter-r {
+    font-family: 'Comforter';
+    font-weight: 400;
+}
+
+//Fredericka --------------------------------------------------
+
+@mixin font-fredericka-r {
+    font-family: 'Fredericka';
+    font-weight: 400;
+}
+
+//Gabelisa --------------------------------------------------
+
+@mixin font-gabelisa-r {
+    font-family: 'Gabelisa';
+    font-weight: 400;
+}
+
+//Montserrat --------------------------------------------------
+
+@mixin font-montserrat-r {
+    font-family: 'Montserrat';
+    font-weight: 400;
+}
+
+@mixin font-montserrat-b {
+    font-family: 'Montserrat';
+    font-weight: 700;
+}
+
+@mixin font-montserrat-exb {
+    font-family: 'Montserrat';
+    font-weight: 800;
+}
+
+//Neucha --------------------------------------------------
+
+@mixin font-neucha-r {
+    font-family: 'Neucha';
+    font-weight: 400;
+}
+
+//Roboto --------------------------------------------------
+
+@mixin font-roboto-l {
+    font-family: 'Roboto';
+    font-weight: 300;
+}
+
+@mixin font-roboto-r {
+    font-family: 'Roboto';
+    font-weight: 400;
+}
+
+@mixin font-roboto-m {
+    font-family: 'Roboto';
+    font-weight: 500;
+}
+
+@mixin font-roboto-b {
+    font-family: 'Roboto';
+    font-weight: 700;
+}
+
+@mixin font-roboto-bck {
+    font-family: 'Roboto';
+    font-weight: 800;
+}
+
+//TTNormsPro --------------------------------------------------
+
+@mixin font-ttnormspro-l {
+    font-family: 'TTNormsPro';
+    font-weight: 400;
+}
+
+@mixin font-ttnormspro-m {
+    font-family: 'TTNormsPro';
+    font-weight: 500;
+}
+
+@mixin font-ttnormspro-b {
+    font-family: 'TTNormsPro';
+    font-weight: 700;
+}
+
+//OTHER =====================================================================================================
+
+@mixin flex-jc ($jc: center, $ai: center) {
+    display: flex;
+    justify-content: $jc;
+    align-items: $ai;
+}
+
+@mixin flex-fd ($jc: center, $ai: center) {
+    display: flex;
+    flex-direction: column;
+    justify-content: $jc;
+    align-items: $ai;
+}
+
+@mixin hyphens {
+    text-align: justify;
+    hyphens: auto;
+}

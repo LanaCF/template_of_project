@@ -1,0 +1,96 @@
+//BASIC =====================================================================================================
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: $color-l;
+}
+
+h1 {
+    @include font-roboto-bck;
+    font-size: $font-title-h1;
+    color: $color-j;
+    text-align: center;
+    padding-top: 25px;
+}
+
+h2 {
+    @include font-roboto-m;
+    font-size: $font-title-h2;
+    color: $color-j;
+    text-align: center;
+    padding-bottom: $padding-bottom;
+}
+
+h3 {
+    @include font-roboto-m;
+    color: $color-j;
+    text-align: center;
+    padding-bottom: $padding-bottom;
+}
+
+//ADDITIONAL =====================================================================================================
+
+.text-bold {
+    font-weight: bold;
+}
+
+.text-italic {
+    font-style: italic;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-red {
+    color: red;
+}
+
+.text-white {
+    color: white;
+}
+
+//SCROLL =====================================================================================================
+
+.scroll-top {
+    @include flex-jc;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: rgba(129, 213, 235, 0.555);
+    cursor: pointer;
+    position: fixed;
+    top: 50px;
+    right: 5px;
+    z-index: 150;
+}
+
+.bottomToTop {
+    width: 0;
+    height: 0;
+    margin: 17px 12px 15px;
+    border-top: 0 solid transparent;
+    border-right: 12px solid transparent;
+    border-bottom: 12px solid $color-e;
+    border-left: 12px solid transparent;
+    cursor: pointer;
+}
+
+//PAGE =====================================================================================================
+
+.container {
+    max-width: $container-width;
+    margin:  auto;
+    padding: $padding-container;
+}
+

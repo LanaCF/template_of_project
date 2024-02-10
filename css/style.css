@@ -1,0 +1,201 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #0d0701;
+}
+
+h1 {
+  font-family: "Roboto";
+  font-weight: 800;
+  font-size: 45px;
+  color: #1d3777;
+  text-align: center;
+  padding-top: 25px;
+}
+
+h2 {
+  font-family: "Roboto";
+  font-weight: 500;
+  font-size: 30px;
+  color: #1d3777;
+  text-align: center;
+  padding-bottom: 50px;
+}
+
+h3 {
+  font-family: "Roboto";
+  font-weight: 500;
+  color: #1d3777;
+  text-align: center;
+  padding-bottom: 50px;
+}
+
+.text-bold {
+  font-weight: bold;
+}
+
+.text-italic {
+  font-style: italic;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-red {
+  color: red;
+}
+
+.text-white {
+  color: white;
+}
+
+.scroll-top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: rgba(129, 213, 235, 0.555);
+  cursor: pointer;
+  position: fixed;
+  top: 50px;
+  right: 5px;
+  z-index: 150;
+}
+
+.bottomToTop {
+  width: 0;
+  height: 0;
+  margin: 17px 12px 15px;
+  border-top: 0 solid transparent;
+  border-right: 12px solid transparent;
+  border-bottom: 12px solid #7ba4d2;
+  border-left: 12px solid transparent;
+  cursor: pointer;
+}
+
+.container {
+  max-width: 1500px;
+  margin: auto;
+  padding: 55px 55px;
+}
+
+@font-face {
+  font-family: "Comforter";
+  src: url("../fonts/Comforter/Comforter-Regular_400.eot") format("opentype"), url("../fonts/Comforter/Comforter-Regular_400.ttf") format("truetype"), url("../fonts/Comforter/Comforter-Regular_400.woff") format("woff"), url("../fonts/Comforter/Comforter-Regular_400.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Fredericka";
+  src: url("../fonts/Fredericka/Fredericka_the_Great_Regular_400.eot") format("opentype"), url("../fonts/Fredericka/Fredericka_the_Great_Regular_400.ttf") format("truetype"), url("../fonts/Fredericka/Fredericka_the_Great_Regular_400.woff") format("woff"), url("../fonts/Fredericka/Fredericka_the_Great_Regular_400.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Gabelisa";
+  src: url("../fonts/Gabelisa/Gabelisa_Regular_400.eot") format("opentype"), url("../fonts/Gabelisa/Gabelisa_Regular_400.ttf") format("truetype"), url("../fonts/Gabelisa/Gabelisa_Regular_400.woff") format("woff"), url("../fonts/Gabelisa/Gabelisa_Regular_400.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Montserrat";
+  src: url("../fonts/Montserrat/Montserrat_Regular_400.eot") format("opentype"), url("../fonts/Montserrat/Montserrat_Regular_400.ttf") format("truetype"), url("../fonts/Montserrat/Montserrat_Regular_400.woff") format("woff"), url("../fonts/Montserrat/Montserrat_Regular_400.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Montserrat";
+  src: url("../fonts/Montserrat/Montserrat_Bold_700.eot") format("opentype"), url("../fonts/Montserrat/Montserrat_Bold_700.ttf") format("truetype"), url("../fonts/Montserrat/Montserrat_Bold_700.woff") format("woff"), url("../fonts/Montserrat/Montserrat_Bold_700.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Montserrat";
+  src: url("../fonts/Montserrat/Montserrat_ExtraBold_800.eot") format("opentype"), url("../fonts/Montserrat/Montserrat_ExtraBold_800.ttf") format("truetype"), url("../fonts/Montserrat/Montserrat_ExtraBold_800.woff") format("woff"), url("../fonts/Montserrat/Montserrat_ExtraBold_800.woff2") format("woff2");
+  font-weight: 800;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Neucha";
+  src: url("../fonts/Neucha/Neucha_400.eot") format("opentype"), url("../fonts/Neucha/Neucha-Regular_400.ttf") format("truetype"), url("../fonts/Neucha/Neucha_400.woff") format("woff"), url("../fonts/Neucha/Neucha_400.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Roboto";
+  src: url("../fonts/Roboto/Roboto-Light_300.eot") format("opentype"), url("../fonts/Roboto/Roboto-Light_300.ttf") format("truetype"), url("../fonts/Roboto/Roboto-Light_300.woff") format("woff"), url("../fonts/Roboto/Roboto-Light_300.woff2") format("woff2");
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Roboto";
+  src: url("../fonts/Roboto/Roboto-Regular_400.eot") format("opentype"), url("../fonts/Roboto/Roboto-Regular_400.ttf") format("truetype"), url("../fonts/Roboto/Roboto-Regular_400.woff") format("woff"), url("../fonts/Roboto/Roboto-Regular_400.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Roboto";
+  src: url("../fonts/Roboto/Roboto-Medium_500.eot") format("opentype"), url("../fonts/Roboto/Roboto-Medium_500.ttf") format("truetype"), url("../fonts/Roboto/Roboto-Medium_500.woff") format("woff"), url("../fonts/Roboto/Roboto-Medium_500.woff2") format("woff2");
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Roboto";
+  src: url("../fonts/Roboto/Roboto-Bold_700.eot") format("opentype"), url("../fonts/Roboto/Roboto-Bold_700.ttf") format("truetype"), url("../fonts/Roboto/Roboto-Bold_700.woff") format("woff"), url("../fonts/Roboto/Roboto-Bold_700.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Roboto";
+  src: url("../fonts/Roboto/Roboto-Black_900.eot") format("opentype"), url("../fonts/Roboto/Roboto-Black_900.ttf") format("truetype"), url("../fonts/Roboto/Roboto-Black_900.woff") format("woff"), url("../fonts/Roboto/Roboto-Black_900.woff2") format("woff2");
+  font-weight: 800;
+  font-style: normal;
+}
+@font-face {
+  font-family: "TTNormsPro";
+  src: url("../fonts/TTNormsPro/TTNormsPro-Light.eot") format("opentype"), url("../fonts/TTNormsPro/TTNormsPro-Light.ttf") format("truetype"), url("../fonts/TTNormsPro/TTNormsPro-Light.woff") format("woff"), url("../fonts/TTNormsPro/TTNormsPro-Light.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "TTNormsPro";
+  src: url("../fonts/TTNormsPro/TTNormsPro-Medium.eot") format("opentype"), url("../fonts/TTNormsPro/TTNormsPro-Medium.ttf") format("truetype"), url("../fonts/TTNormsPro/TTNormsPro-Medium.woff") format("woff"), url("../fonts/TTNormsPro/TTNormsPro-Medium.woff2") format("woff2");
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: fac;
+  src: url("../fonts/TTNormsPro/TTNormsPro-Bold.eot") format("opentype"), url("../fonts/TTNormsPro/TTNormsPro-Bold.ttf") format("truetype"), url("../fonts/TTNormsPro/TTNormsPro-Bold.woff") format("woff"), url("../fonts/TTNormsPro/TTNormsPro-Bold.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+}
+header {
+  width: 100%;
+}
+
+main {
+  width: 100%;
+}
+
+footer {
+  width: 100%;
+}/*# sourceMappingURL=style.css.map */
